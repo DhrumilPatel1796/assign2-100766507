@@ -12,7 +12,11 @@ get_header(); ?>
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
 
-    <h2>This is an about page template file</h2>
+    <h2>Name: Dhrumil Patel</h2>
+    <h2>Student Id: 100766507</h2>
+    <h2>DCmail: dhrumilmanojkumar.patel@dcmail.ca</h2>
+    <h2>Course: Contemporary Web Design</h2>
+    <h2>Subject Name: Content Management & System I</h2> 
 
     <?php
     // Start the loop
