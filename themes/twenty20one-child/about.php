@@ -12,7 +12,7 @@ get_header(); ?>
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
 
-    <h1>This is an about page template file</h1>
+    <h2>This is an about page template file</h2>
 
     <?php
     // Start the loop
