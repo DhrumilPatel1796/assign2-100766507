@@ -13,6 +13,7 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
 
     <h1>This is a home page template file.</h1>
+        <h2>Introduction about Myself.</h2>
 
     <?php
     // Start the loop
