@@ -15,8 +15,8 @@ get_header(); ?>
     <h2>Name: Dhrumil Patel</h2>
     <h2>Student Id: 100766507</h2>
     <h2>DCmail: dhrumilmanojkumar.patel@dcmail.ca</h2>
-    <h2>Course: Contemporary Web Design</h2>
-    <h2>Subject Name: Content Management & System I</h2> 
+    <h2>Program Name: Contemporary Web Design</h2>
+    <h2>Course Name: Content Management System I</h2> 
 
     <?php
     // Start the loop
