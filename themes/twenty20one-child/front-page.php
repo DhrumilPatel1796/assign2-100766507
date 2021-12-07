@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Front Page Template
+ * Template Name: Front Page Template File
  *
  * In order for this template to work a page needs to be created with the About template selected.
  */
