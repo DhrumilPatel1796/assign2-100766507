@@ -1,0 +1,159 @@
+h1.site-title {
+	color: red;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+p.site-description {
+	color: blueviolet;
+	font-family: cursive;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+ul.wp-block-categories-list.wp-block-categories a, ul.wp-block-archives-list.wp-block-archives a {
+	font-family: cursive;
+	font-size: 17px;
+	color: blue;
+}
+
+div.wp-block-group__inner-container h2 {
+	font-family: Arial;
+	font-size: 25px;
+	color: darkred;
+}
+
+h2 {
+	font-family: Bell MT;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+div.no-comments.wp-block-latest-comments {
+	font-family: Bell MT;
+	font-size: 25px;
+	color: green;
+	font-weight: 600;
+}
+
+label.wp-block-search__label {
+	font-family: Arial;
+	font-size: 30px;
+	color: darkred;
+	font-weight: 600;
+}
+
+div.site-name {
+	font-family: Arial;
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+}
+
+div.powered-by {
+	color: graytext;
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+ul.wp-block-latest-posts__list.wp-block-latest-posts a {
+	font-family: Bell MT;
+	font-size: 18px;
+	color: green;
+	font-weight: 600;
+}
+
+p {
+	font-family: Bell MT;
+	font-size: 17px;
+	color: orangered;
+	font-weight: 600;
+}
+
+li {
+	font-family: Bell MT;
+	font-size: 18px;
+	color: orangered;
+	font-weight: 600;
+}
+
+ul#primary-menu-list.menu-wrapper a {
+	color: blue;
+	font-family: Cursive;
+	font-size: 25px;
+	font-weight: 500;
+	text-decoration-color: green;
+}
+
+div.wp-block-search__inside-wrapper input.wp-block-search__input {
+	background-color: lightgrey;
+}
+
+ul#primary-menu-list.menu-wrapper ul.sub-menu a {
+	color: black;
+	font-size: 20px;
+	font-family: Arial;
+	background-color: lightgreen;
+	font-weight: 600;
+}
+
+ul#primary-menu-list.menu-wrapper ul.sub-menu a:hover {
+	color: red;
+	background-color: lightgray;
+	font-weight: 600;
+	font-family: cursive;
+	text-decoration-color: black;
+	border: 3px dotted blue;
+}
+
+figure.wp-block-image figcaption {
+	color: blue;
+	font-size: 20px;
+	font-family: cursive
+}
+
+img {
+	width: 90%;
+	margin-top: 20px;
+}
+
+a.customize-unpreviewable {
+	font-size: 20px;
+	text-decoration-color: blue;
+	font-family: cursive;
+}
+
+a.customize-unpreviewable {
+	font-family: cursive;
+	text-decoration-color: green;
+	font-size: 25px;
+}
+
+footer {
+	background-color: lightgray;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 125px;
+	margin-bottom: 40px;
+}
+
+header {
+	background-color: lightyellow;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 230px;
+	margin-top: 40px;
+}
+
+#main p {
+	font-size: 20px;
+	color: blue;
+	font-family: cursive;
+	font-weight: 500;
+}
+
+.has-text-color {
+	font-size: 45px;
+}
