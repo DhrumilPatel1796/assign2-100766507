@@ -19,6 +19,30 @@
 	<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+        
+        <?php
+        if( is_front_page() || is_page_template('templates/sidebar-right.php') ) {
+        $test_args = array(
+                'post_type'      => 'post',
+                'post_status'    => 'publish',
+                'posts_per_page' => 3,
+            );
+
+            $test_query = new WP_Query( $test_args );
+        
+            if ( $test_query->have_posts() ) {
+                while ( $test_query->have_posts() ) {
+                    $test_query->the_post();
+                    
+                    the_post_thumbnail();
+                    ?>
+                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    <?php
+                    the_excerpt();
+                }
+            }
+        }
+        ?>
 
 		<?php if ( has_nav_menu( 'footer' ) ) : ?>
 			<nav aria-label="<?php esc_attr_e( 'Secondary menu', 'twentytwentyone' ); ?>" class="footer-navigation">
